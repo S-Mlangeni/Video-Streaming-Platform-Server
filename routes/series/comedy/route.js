@@ -44,25 +44,4 @@ router.get("/vid/podcast-and-chill-with-mac-g", (req, res) => {
     res.sendFile(path.join(__dirname, "../../../public", "/series", "/comedy", "podcast-and-chill-with-mac-g.mp4"));
 });
 
-router.get("/img/ramy", (req, res) => {
-    res.sendFile(path.join(__dirname, "../../../public", "/series", "/comedy", "ramy.jpg"));
-});
-router.get("/vid/ramy", (req, res) => {
-    res.sendFile(path.join(__dirname, "../../../public", "/series", "/comedy", "ramy.mp4"));
-});
-
-router.get("/img/sadboiliftclub", (req, res) => {
-    res.sendFile(path.join(__dirname, "../../../public", "/series", "/comedy", "sadboiliftclub.jpg"));
-});
-router.get("/vid/sadboiliftclub", (req, res) => {
-    res.sendFile(path.join(__dirname, "../../../public", "/series", "/comedy", "sadboiliftclub.mp4"));
-});
-
-router.get("/img/the-real-mxo-&-uniey-dreams", (req, res) => {
-    res.sendFile(path.join(__dirname, "../../../public", "/series", "/comedy", "the-real-mxo-&-uniey-dreams.jpg"));
-});
-router.get("/vid/the-real-mxo-&-uniey-dreams", (req, res) => {
-    res.sendFile(path.join(__dirname, "../../../public", "/series", "/comedy", "the-real-mxo-&-uniey-dreams.mp4"));
-});
-
 module.exports = router; 
