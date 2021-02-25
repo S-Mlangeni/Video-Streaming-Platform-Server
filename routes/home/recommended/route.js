@@ -44,19 +44,4 @@ router.get("/vid/the-banker", (req, res) => {
     res.sendFile(path.join(__dirname, "../../../public", "home", "/recommended", "the-banker.mp4"));
 });
 
-router.get("/img/wandavision", (req, res) => {
-    res.sendFile(path.join(__dirname, "../../../public", "home", "/recommended", "wandavision.jpg"));
-});
-router.get("/vid/wandavision", (req, res) => {
-    res.sendFile(path.join(__dirname, "../../../public", "home", "/recommended", "wandavision.mp4"));
-});
-
-router.get("/img/young-ahmed", (req, res) => {
-    res.sendFile(path.join(__dirname, "../../../public", "home", "/recommended", "young-ahmed.jpg"));
-});
-router.get("/vid/young-ahmed", (req, res) => {
-    res.sendFile(path.join(__dirname, "../../../public", "home", "/recommended", "young-ahmed.mp4"));
-});
-
-
 module.exports = router; 

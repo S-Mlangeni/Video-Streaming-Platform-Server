@@ -44,18 +44,4 @@ router.get("/vid/podcast-and-chill-with-mac-g", (req, res) => {
     res.sendFile(path.join(__dirname, "../../../public", "/home", "/new", "podcast-and-chill-with-mac-g.mp4"));
 });
 
-router.get("/img/soul", (req, res) => {
-    res.sendFile(path.join(__dirname, "../../../public", "/home", "/new", "soul.jpg"));
-});
-router.get("/vid/soul", (req, res) => {
-    res.sendFile(path.join(__dirname, "../../../public", "/home", "/new", "soul.mp4"));
-});
-
-router.get("/img/the-wooden-stool", (req, res) => {
-    res.sendFile(path.join(__dirname, "../../../public", "/home", "/new", "the-wooden-stool.jpg"));
-});
-router.get("/vid/the-wooden-stool", (req, res) => {
-    res.sendFile(path.join(__dirname, "../../../public", "/home", "/new", "the-wooden-stool.mp4"));
-});
-
 module.exports = router; 

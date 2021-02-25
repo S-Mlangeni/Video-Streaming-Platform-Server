@@ -44,12 +44,4 @@ router.get("/vid/waves", (req, res) => {
     res.sendFile(path.join(__dirname, "../../../public", "/movies", "/drama", "waves.mp4"));
 });
 
-router.get("/img/young-ahmed", (req, res) => {
-    res.sendFile(path.join(__dirname, "../../../public", "/movies", "/drama", "young-ahmed.jpg"));
-});
-router.get("/vid/young-ahmed", (req, res) => {
-    res.sendFile(path.join(__dirname, "../../../public", "/movies", "/drama", "young-ahmed.mp4"));
-});
-
-
 module.exports = router; 

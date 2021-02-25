@@ -6,7 +6,6 @@ const library = (req, res) => {
         {title: "queen-and-slim", path: "/movies/drama/vid/queen-and-slim", image: `${process.env.URL}/movies/drama/img/queen-and-slim`},
         {title: "rafiki", path: "/movies/drama/vid/rafiki", image: `${process.env.URL}/movies/drama/img/rafiki`},
         {title: "waves", path: "/movies/drama/vid/waves", image: `${process.env.URL}/movies/drama/img/waves`},
-        {title: "young-ahmed", path: "/movies/drama/vid/young-ahmed", image: `${process.env.URL}/movies/drama/img/young-ahmed`}
     ])
 }
 
