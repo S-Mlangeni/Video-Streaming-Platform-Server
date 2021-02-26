@@ -1,11 +1,11 @@
 const library = (req, res) => {
     res.send([
-        {tag: "movie", title: "blessers", path: "/home/trending/vid/blessers", image: `${process.env.URL}/home/trending/img/blessers`},
-        {tag: "series", title: "defining-love", path: "/home/trending/vid/defining-love", image: `${process.env.URL}/home/trending/img/defining-love`},
-        {tag: "series", title: "primal", path: "/home/trending/vid/primal", image: `${process.env.URL}/home/trending/img/primal`},
-        {tag: "series", title: "ramy", path: "/home/trending/vid/ramy", image: `${process.env.URL}/home/trending/img/ramy`},
-        {tag: "movie", title: "the-hunt", path: "/home/trending/vid/the-hunt", image: `${process.env.URL}/home/trending/img/the-hunt`},
-        {tag: "movie", title: "the-photograph", path: "/home/trending/vid/the-photograph", image: `${process.env.URL}/home/trending/img/the-photograph`}
+        {tag: "movie", title: "blessers", path: "/home/trending/blessers.mp4", image: `${process.env.URL}/home/trending/blessers.jpg`},
+        {tag: "series", title: "defining-love", path: "/home/trending/defining-love.mp4", image: `${process.env.URL}/home/trending/defining-love.jpg`},
+        {tag: "series", title: "primal", path: "/home/trending/primal.mp4", image: `${process.env.URL}/home/trending/primal.jpg`},
+        {tag: "series", title: "ramy", path: "/home/trending/ramy.mp4", image: `${process.env.URL}/home/trending/ramy.jpg`},
+        {tag: "movie", title: "the-hunt", path: "/home/trending/the-hunt.mp4", image: `${process.env.URL}/home/trending/the-hunt.jpg`},
+        {tag: "movie", title: "the-photograph", path: "/home/trending/the-photograph.mp4", image: `${process.env.URL}/home/trending/the-photograph.jpg`}
     ])
 }
 

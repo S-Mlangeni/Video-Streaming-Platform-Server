@@ -1,8 +1,8 @@
 const library = (req, res) => {
     res.send([
-        {title: "power-book-ii-ghost", path: "/series/action/vid/power-book-ii-ghost", image: `${process.env.URL}/series/action/img/power-book-ii-ghost`},
-        {title: "trackers", path: "/series/action/vid/trackers", image: `${process.env.URL}/series/action/img/trackers`},
-        {title: "wandavision", path: "/series/action/vid/wandavision", image: `${process.env.URL}/series/action/img/wandavision`},
+        {title: "power-book-ii-ghost", path: "/series/action/power-book-ii-ghost.mp4", image: `${process.env.URL}/series/action/power-book-ii-ghost.jpg`},
+        {title: "trackers", path: "/series/action/trackers.mp4", image: `${process.env.URL}/series/action/trackers.jpg`},
+        {title: "wandavision", path: "/series/action/wandavision.mp4", image: `${process.env.URL}/series/action/wandavision.jpg`},
     ])
 }
 

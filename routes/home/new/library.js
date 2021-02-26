@@ -1,11 +1,11 @@
 const library = (req, res) => {
     res.send([
-        {tag: "series", title: "bel-air", path: "/home/new/vid/bel-air", image: `${process.env.URL}/home/new/img/bel-air`},
-        {tag: "series", title: "grownish", path: "/home/new/vid/grownish", image: `${process.env.URL}/home/new/img/grownish`},
-        {tag: "movie", title: "high-fantasy", path: "/home/new/vid/high-fantasy", image: `${process.env.URL}/home/new/img/high-fantasy`},
-        {tag: "movie", title: "judas-and-the-black-messiah", path: "/home/new/vid/judas-and-the-black-messiah", image: `${process.env.URL}/home/new/img/judas-and-the-black-messiah`},
-        {tag: "movie", title: "knuckle-city", path: "/home/new/vid/knuckle-city", image: `${process.env.URL}/home/new/img/knuckle-city`},
-        {tag: "series", title: "podcast-and-chill-with-mac-g", path: "/home/new/vid/podcast-and-chill-with-mac-g", image: `${process.env.URL}/home/new/img/podcast-and-chill-with-mac-g`}
+        {tag: "series", title: "bel-air", path: "/home/new/bel-air.mp4", image: `${process.env.URL}/home/new/bel-air.jpg`},
+        {tag: "series", title: "grownish", path: "/home/new/grownish.mp4", image: `${process.env.URL}/home/new/grownish.jpg`},
+        {tag: "movie", title: "high-fantasy", path: "/home/new/high-fantasy.mp4", image: `${process.env.URL}/home/new/high-fantasy.jpg`},
+        {tag: "movie", title: "judas-and-the-black-messiah", path: "/home/new/judas-and-the-black-messiah.mp4", image: `${process.env.URL}/home/new/judas-and-the-black-messiah.jpg`},
+        {tag: "movie", title: "knuckle-city", path: "/home/new/knuckle-city.mp4", image: `${process.env.URL}/home/new/knuckle-city.jpg`},
+        {tag: "series", title: "podcast-and-chill-with-mac-g", path: "/home/new/podcast-and-chill-with-mac-g.mp4", image: `${process.env.URL}/home/new/podcast-and-chill-with-mac-g.jpg`}
     ])
 }
 

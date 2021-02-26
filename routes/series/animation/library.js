@@ -1,8 +1,8 @@
 const library = (req, res) => {
     res.send([
-        {title: "family-guy", path: "/series/animation/vid/family-guy", image: `${process.env.URL}/series/animation/img/family-guy`},
-        {title: "primal", path: "/series/animation/vid/primal", image: `${process.env.URL}/series/animation/img/primal`},
-        {title: "solar-opposites", path: "/series/animation/vid/solar-opposites", image: `${process.env.URL}/series/animation/img/solar-opposites`}
+        {title: "family-guy", path: "/series/animation/family-guy.mp4", image: `${process.env.URL}/series/animation/family-guy.jpg`},
+        {title: "primal", path: "/series/animation/primal.mp4", image: `${process.env.URL}/series/animation/primal.jpg`},
+        {title: "solar-opposites", path: "/series/animation/solar-opposites.mp4", image: `${process.env.URL}/series/animation/solar-opposites.jpg`}
     ])
 }
 

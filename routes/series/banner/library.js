@@ -1,6 +1,6 @@
 const library = (req, res) => {
     res.send([
-        {title: "sadboiliftclub", path: "/series/banner/vid/sadboiliftclub", image: `${process.env.URL}/series/banner/img/sadboiliftclub`}
+        {title: "sadboiliftclub", path: "/series/banner/sadboiliftclub.mp4", image: `${process.env.URL}/series/banner/sadboiliftclub.jpg`}
     ])
 }
 

@@ -2,45 +2,45 @@ const express = require("express");
 const router = express.Router();
 const path = require("path");
 
-router.get("/img/babyteeth", (req, res) => {
+router.get("/babyteeth.jpg", (req, res) => {
     res.sendFile(path.join(__dirname, "../../../public", "/movies", "/drama", "babyteeth.jpg"));
 });
-router.get("/vid/babyteeth", (req, res) => {
+router.get("/babyteeth.mp4", (req, res) => {
     res.sendFile(path.join(__dirname, "../../../public", "/movies", "/drama", "babyteeth.mp4"));
 });
 
-router.get("/img/i-am-not-a-witch", (req, res) => {
+router.get("/i-am-not-a-witch.jpg", (req, res) => {
     res.sendFile(path.join(__dirname, "../../../public", "/movies", "/drama", "i-am-not-a-witch.jpg"));
 });
-router.get("/vid/i-am-not-a-witch", (req, res) => {
+router.get("/i-am-not-a-witch.mp4", (req, res) => {
     res.sendFile(path.join(__dirname, "../../../public", "/movies", "/drama", "i-am-not-a-witch.mp4"));
 });
 
-router.get("/img/moffie", (req, res) => {
+router.get("/moffie.jpg", (req, res) => {
     res.sendFile(path.join(__dirname, "../../../public", "/movies", "/drama", "moffie.jpg"));
 });
-router.get("/vid/moffie", (req, res) => {
+router.get("/moffie.mp4", (req, res) => {
     res.sendFile(path.join(__dirname, "../../../public", "/movies", "/drama", "moffie.mp4"));
 });
 
-router.get("/img/queen-and-slim", (req, res) => {
+router.get("/queen-and-slim.jpg", (req, res) => {
     res.sendFile(path.join(__dirname, "../../../public", "/movies", "/drama", "queen-and-slim.jpg"));
 });
-router.get("/vid/queen-and-slim", (req, res) => {
+router.get("/queen-and-slim.mp4", (req, res) => {
     res.sendFile(path.join(__dirname, "../../../public", "/movies", "/drama", "queen-and-slim.mp4"));
 });
 
-router.get("/img/rafiki", (req, res) => {
+router.get("/rafiki.jpg", (req, res) => {
     res.sendFile(path.join(__dirname, "../../../public", "/movies", "/drama", "rafiki.jpg"));
 });
-router.get("/vid/rafiki", (req, res) => {
+router.get("/rafiki.mp4", (req, res) => {
     res.sendFile(path.join(__dirname, "../../../public", "/movies", "/drama", "rafiki.mp4"));
 });
 
-router.get("/img/waves", (req, res) => {
+router.get("/waves.jpg", (req, res) => {
     res.sendFile(path.join(__dirname, "../../../public", "/movies", "/drama", "waves.jpg"));
 });
-router.get("/vid/waves", (req, res) => {
+router.get("/waves.mp4", (req, res) => {
     res.sendFile(path.join(__dirname, "../../../public", "/movies", "/drama", "waves.mp4"));
 });
 

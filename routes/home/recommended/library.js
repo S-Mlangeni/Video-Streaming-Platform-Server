@@ -1,11 +1,11 @@
 const library = (req, res) => {
     res.send([
-        {tag: "series", title: "boity-own-your-throne", path: "/home/recommended/vid/boity-own-your-throne", image: `${process.env.URL}/home/recommended/img/boity-own-your-throne`},
-        {tag: "series", title: "dave", path: "/home/recommended/vid/dave", image: `${process.env.URL}/home/recommended/img/dave`},
-        {tag: "movie", title: "moffie", path: "/home/recommended/vid/moffie", image: `${process.env.URL}/home/recommended/img/moffie`},
-        {tag: "movie", title: "queen-and-slim", path: "/home/recommended/vid/queen-and-slim", image: `${process.env.URL}/home/recommended/img/queen-and-slim`},
-        {tag: "series", title: "sadboiliftclub", path: "/home/recommended/vid/sadboiliftclub", image: `${process.env.URL}/home/recommended/img/sadboiliftclub`},
-        {tag: "movie", title: "the-banker", path: "/home/recommended/vid/the-banker", image: `${process.env.URL}/home/recommended/img/the-banker`}
+        {tag: "series", title: "boity-own-your-throne", path: "/home/recommended/boity-own-your-throne.mp4", image: `${process.env.URL}/home/recommended/boity-own-your-throne.jpg`},
+        {tag: "series", title: "dave", path: "/home/recommended/dave.mp4", image: `${process.env.URL}/home/recommended/dave.jpg`},
+        {tag: "movie", title: "moffie", path: "/home/recommended/moffie.mp4", image: `${process.env.URL}/home/recommended/moffie.jpg`},
+        {tag: "movie", title: "queen-and-slim", path: "/home/recommended/queen-and-slim.mp4", image: `${process.env.URL}/home/recommended/queen-and-slim.jpg`},
+        {tag: "series", title: "sadboiliftclub", path: "/home/recommended/sadboiliftclub.mp4", image: `${process.env.URL}/home/recommended/sadboiliftclub.jpg`},
+        {tag: "movie", title: "the-banker", path: "/home/recommended/the-banker.mp4", image: `${process.env.URL}/home/recommended/the-banker.jpg`}
     ])
 }
 
