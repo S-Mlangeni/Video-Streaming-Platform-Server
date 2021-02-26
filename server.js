@@ -1,5 +1,4 @@
 const express = require("express");
-const cors = require("cors");
 const dotenv = require("dotenv");
 dotenv.config();
 const files = require("./routes/home/recommended/library");
@@ -55,9 +54,12 @@ app.listen(process.env.PORT, () => {
     console.log("Server is running!");
 });
 
-app.use(cors()); /* Middleware that activates the "cors" function to allow the client-side
-.js file to access the server side. Otherwise, file will be denied access to the server side
-by the browser. */ 
+app.use((req, res, next) => {
+    res.header("Access-Control-Allow-Origin", `${process.env.DOMAIN}`); // "*" allows all domains to access the server
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+    next();
+}); /* Middleware that allows different domains to access the server, thus eliminating cors error */
+
 app.use("/home/recommended", recommended); /* Middleware for the "recommended" routes */
 app.use("/trending", trending); /* Middleware for the "trending" routes */
 
@@ -78,8 +80,6 @@ app.use("/series/animation", series_animation);
 app.use("/series/comedy", series_comedy);
 app.use("/series/documentaries", series_documentaries);
 
-//app.use("/series", series); /* Middleware for the "series" routes */
-//app.use("/movies", movies); /* Middleware for the "movies" routes */
 
 app.get("/", (req, res) => {
     res.send("<h1>Hello Everyone!</h1>");
